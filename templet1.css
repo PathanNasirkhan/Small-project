@@ -1,0 +1,310 @@
+html{
+      scroll-behavior: smooth;
+}
+.dropdown:hover>.dropdown-menu {
+      display: block;
+  }
+
+  ul {
+      padding-top: 10px;
+  }
+
+  ul li {
+      padding-right: 15px;
+  }
+
+
+  #navbarNavDropdown ul li a:hover {
+      color: rgb(89, 158, 237);
+}
+#navbarNavDropdown > a:hover{
+        color: rgb(89, 158, 237);
+
+  }
+
+  .dropcolor {
+      color: black;
+  }
+
+  .get {
+      margin-top: 5px;
+      border-radius: 25px;
+      color: white;
+  }
+
+  .btn-outline-primary {
+      border-color: #47b2e4;
+      margin-top: -8px;
+  }
+
+  @media only screen and (max-width: 1000px) {
+      .btn-outline-primary {
+          margin-top: 10px;
+      }
+  }
+
+  .btn-outline-primary:hover {
+      background-color: #47b2e4;
+  }
+
+  .scback {
+      z-index: 9;
+      background-color: #37517e;
+      text-align: center;
+      top: 0;
+      color: white;
+      padding-top: 65px;
+      margin-top: -65px;
+  }
+
+  .bcolor {
+      background-color: #47b2e4 !important;
+      border-radius: 25px;
+  }
+
+  #section {
+      margin-top: 80px;
+  }
+
+  #div1 {
+      display: flex;
+      justify-content: flex-start;
+      margin-top: 20px;
+  }
+
+  .acolor {
+      color: white;
+  }
+
+  .img {
+      width: 80%;
+
+      animation: abc 2s infinite alternate;
+  }
+
+  @keyframes abc {
+      from {
+          transform: translateY(10px);
+          transition: all 2s;
+      }
+
+      to {
+          transform: translateY(-10px);
+          transition: all 2s;
+      }
+  }
+
+#smimg img{
+       height: 100px;
+       width: 150px;
+       margin-top: 15px;
+       filter: grayscale(100);
+       transition: all 0.4s ease-in-out;
+       display: inline-block;
+}
+@media only screen and (max-width=575px){
+      #smimg {
+            display: block;
+            margin: auto;
+            /* margin-left: auto; */
+      }
+}
+#smimg img:hover{
+      filter: none;
+}
+#navbarNavDropdown ul li a:not(.dropdown-item) {
+      color: white;
+      text-decoration: none;
+  }
+.content-title{
+      font-weight: 700;
+      font-size: 35px;
+      color: #37517e;
+}
+.discr{
+      font-size: 17px;
+      max-width: 600px;
+}
+.btnout{
+      border-width: 1px;
+}
+.nota{
+      list-style: none;
+}
+.about1{
+      color:#37517e;
+}
+.card:hover h5{
+      color:#47b2e4;
+      transition: 0.5s;
+}
+
+.forcollape{
+      list-style-type: none;
+      padding: 20px;
+      margin-top: 10px;
+      align-items: center;
+     text-align: center;
+     border-radius: 5px;
+     background-color: white;
+     
+     
+
+}
+.forcollape a{
+      text-decoration: none;
+      width: 100%;
+}
+.card{
+      border: none;
+}
+.card i{
+      /* height: 12px; */
+      font-size: 50px;
+      color: #47b2e4;
+
+}
+.card4{
+      box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 20%);
+
+}
+.card4:hover{
+      transform: translateY(-12px);
+      transition: all 0.2s ;
+}
+.about2{
+      background: url(/images/why-us.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 60vh;
+}
+.skill{
+      background: url("/images/skills.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 60vh;
+}
+.forbar{
+      display: flex;
+      justify-content: space-between;
+}
+.forbar span{
+      color:#37517e;
+      font-weight: 800;
+}
+.progress-bar{
+     background-color: #4668a2;
+}
+/* .head{
+      text-align: center;
+} */
+.head{
+      color: #37517e;
+}
+.navpare{
+      background-color: #4668a2;
+}
+.posi{
+      position: sticky;
+      top: 0;
+      z-index: 999;
+}
+
+/* call-to-action */
+#call-to-action{
+      background:linear-gradient(rgba(40, 58, 90, 0.9),rgba(40, 58, 90, 0.9)), url(https://bootstrapmade.com/demo/templates/Arsha/assets/img/cta-bg.jpg) fixed center center;
+      background-size: cover;
+      color: white;
+}
+@media only screen and (max-width: 1400px) {
+      #call-to-action {
+            display: flex;
+            justify-content: flex-start;
+      }
+    }
+.action{
+      padding: 120px 0;
+}
+#buton button{
+      border:1px solid white;
+      color: white;
+      border-radius: 25px;
+      font-size: 20px;
+      padding: 8px 15px ;
+}
+#buton button:hover{
+      border:1px solid #007bff;
+      color: white;
+      border-radius: 25px;
+      transition: 0.5s;
+}
+
+
+/* portfolioi */
+
+.portfolio-item ul{
+      /* display: block; */
+      margin-left: auto;
+      margin-right:auto ;
+}
+.portfolio-item img{
+      margin-bottom:2rem ;
+}
+#pills-home-tab,#pills-profile-tab,#pills-contact-tab,#pills-web-tab{
+      border-radius: 30px !important;
+}
+
+/* Contact section */
+.contact-data{
+      box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 20%);
+      border-top: 4px solid skyblue;
+      border-bottom: 4px solid skyblue;
+}
+.location1 h3,.location1 p{
+      color: #4668a2;
+}
+#Lbutton{
+      border-radius: 25px;
+}
+.location1 span{
+      color: #4668a2;
+      background-color: aliceblue;
+      border-radius: 50%;
+      height: 50px;
+      width: 50px;
+      display: flex;
+      justify-content: center;
+      
+}
+.location1:hover span{
+      background-color: skyblue;
+      color: white;
+      border-radius: 50%;
+}
+
+/* footer section */
+footer{
+      background-color: #37517e;
+    
+}
+#footer{
+      display: flex;
+      justify-content: space-between;
+      margin: 50px;  
+      color: white;   
+      align-items: center;
+}
+@media only screen and (max-width:620px) {
+      #footer{
+            display: block;
+            margin:50px;  
+            color: white;   
+            align-items: center;
+            
+      }
+      #footer h6, #footer p{
+            margin: 20px !important;
+      }
+}
